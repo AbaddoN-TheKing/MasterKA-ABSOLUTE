@@ -1,29 +1,99 @@
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <title>MasterKA ABSOLUTE</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master ABSOLUTE - Bot KingsAge</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #FFD700;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li::before {
+            content: "✔️ ";
+        }
+        .button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 15px;
+            background: #FFD700;
+            color: #000;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-
-    <h1>MasterKA ABSOLUTE</h1>
-
-    <p class="price">15€ / mês</p>
-
-    <p>
-        Script para o jogo<br>
-        <strong>kingsage.gameforge.com</strong>
-    </p>
-
-    <p>
-        Vários extras <strong>NUNCA ANTES VISTOS</strong>
-    </p>
-
-    <p class="discord">
-        Contacto Discord:<br>
-        <strong>TEU_DISCORD</strong>
-    </p>
-
+    <div class="container">
+        <h1>Master ABSOLUTE</h1>
+        <h2>Bot para KingsAge</h2>
+        <p><strong>Subscrição:</strong> 30 dias = 10€</p>
+        <h3>Funcionalidades:</h3>
+        <ul>
+            <li>Filtros na Torre</li>
+            <li>Filtros no Planeador</li>
+            <li>Planeador Avançado de Ataques</li>
+            <li>Ataques automáticos com milésimos de segundo</li>
+            <li>Apoios automáticos com milésimos de segundo</li>
+            <li>Função de pesquisar pesquisas automáticamente</li>
+            <li>Atalhos no Mercado com várias configs modificáveis</li>
+            <li>Atalhos no Quartel Configuráveis</li>
+            <li>Botões para Fake Mass</li>
+            <li>Função para filtrar no mapa por tempo de viagem</li>
+            <li>Função para ver a disponibilidade de sítios para Voous Planejados</li>
+            <li>Função para calcular pontos de alianças</li>
+            <li>Função para calcular pontos de jogadores</li>
+            <li>Exibir tabela no ranking de evolução de jogadores e alianças</li>
+            <li>Extrair a hora exata que acaba a proteção de conquista de jogadores</li>
+        </ul>
+        <a class="button" href="https://paypal.me/teunome/10" target="_blank">Comprar Agora - 10€</a>
+        <h3>Contato:</h3>
+        <form action="mailto:Impureza331@gmail.com" method="POST" enctype="text/plain">
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="mensagem" rows="4" placeholder="Sua Mensagem (opcional)"></textarea>
+            <input type="submit" value="Enviar Pedido">
+        </form>
+        <footer>
+            📩 Suporte: Impureza331@gmail.com
+        </footer>
+    </div>
 </body>
 </html>
