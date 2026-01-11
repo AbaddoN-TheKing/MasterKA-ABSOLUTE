@@ -1,25 +1,28 @@
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: radial-gradient(circle at top, #2b1b0f, #000);
+    color: #f5e6c8;
+    font-family: "Trebuchet MS", Arial, sans-serif;
     text-align: center;
-    padding: 40px 20px;
+}
+
+.container {
+    padding: 50px 20px;
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 48px;
     margin-bottom: 10px;
 }
 
 h2 {
     font-weight: normal;
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .price {
-    font-size: 36px;
-    color: #00ff99;
-    margin: 20px 0;
+    font-size: 38px;
+    margin: 25px 0;
     font-weight: bold;
 }
 
@@ -34,19 +37,61 @@ ul {
 }
 
 ul li {
-    margin: 10px 0;
+    margin: 12px 0;
     font-size: 18px;
 }
 
 .contact {
     margin-top: 40px;
-    padding: 15px;
-    border: 1px solid #333;
+    padding: 20px 30px;
     display: inline-block;
+    border-radius: 6px;
+}
+
+.discord {
+    font-size: 20px;
+    color: #00b0ff;
+}
+
+/* GLOW EFFECTS */
+.glow {
+    text-shadow: 0 0 8px #ffcc66, 0 0 16px #ff9900;
+}
+
+.glow-green {
+    color: #7CFF00;
+    text-shadow: 0 0 8px #7CFF00, 0 0 16px #3cff00;
+}
+
+.glow-box {
+    border: 1px solid #a67c00;
+    box-shadow: 0 0 10px #a67c00;
+}
+
+/* FADE IN */
+.fade-in {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.warning {
+    margin-top: 30px;
+    font-size: 12px;
+    opacity: 0.6;
 }
 
 footer {
-    margin-top: 50px;
+    margin: 40px 0 20px;
     font-size: 12px;
     opacity: 0.5;
 }
